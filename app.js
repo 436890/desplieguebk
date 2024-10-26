@@ -4,7 +4,7 @@ const cors = require ('cors');
 const dbconnect = require("./config.js");
 const app = express();
 app.use(express.json());
-app.use(cors({origin:'http://localhost:4200'}));
+app.use(cors({origin:'*'}));
 app.use('/api/usuarios',require('./Routes/usuario.routers.js'));
 app.use('/api/empleados',require('./Routes/empleado.routes.js'));
 
