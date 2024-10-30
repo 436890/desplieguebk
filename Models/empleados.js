@@ -2,14 +2,10 @@ const mongoose = require('mongoose');
 
 const  empleadoModel = new mongoose.Schema(
 {
-    name:{
-        type:String, },
-    position:{
-        type: String,} ,
-     office:{
-        type: String,} ,
-    salary:{
-        type: Number,} 
+    name:{type:String },
+    position:{ type: String},
+     office:{type: String},
+    salary:{type: Number}, 
     },
     {
       timestamps:true,

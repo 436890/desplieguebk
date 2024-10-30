@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 const  userModel = new mongoose.Schema(
 {
     nomuser:{
-        type:String, required: true, unique: true 
+        type:String //required: //true, unique: true 
        },
     password:{
-        type: String, type: String, required: true 
+        type: String// type: String, //required: true 
     } 
     },
     {

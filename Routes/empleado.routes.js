@@ -1,6 +1,6 @@
 const express = require ('express');
 const router = express.Router();
-const empleadoCtrl = require('../Controlles/empleado.controller.js');
+const empleadoCtrl = require('../Controlles/empleado.controller');
 
 router.get('/', empleadoCtrl.getEmpleado);
 router.post('/', empleadoCtrl.createEmpleado);
